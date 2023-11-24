@@ -1,0 +1,1 @@
+MONGODBCLIENT="mongodb+srv://issadiapro:issadiapro@cluster0.bpolggg.mongodb.net/"
