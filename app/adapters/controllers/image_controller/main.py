@@ -19,8 +19,6 @@ app.secret_key =  os.getenv("FLASK_SECRET_KEY")
 description_use_case = DescriptionUseCase(ReplicateAPI())
 image_use_case = get_image_use_case(use_tensorflow=True, use_transformers=False)
 
-os.environ["REPLICATE_API_TOKEN"] = os.getenv("REPLICATE_API_TOKEN")
-
 
 DATA_API_ENDPOINT = os.getenv("DATA_API_ENDPOINT")
 UPLOAD_FOLDER = 'uploads'
