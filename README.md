@@ -51,10 +51,11 @@ cd turbo-complete-algo
 pip install -r requirements.txt
 ```
 
-4. Installer replicate
+4. Installer replicate et transformers
 
   ```bash
-pip install replicate
+python3 -m pip install replicate
+python3 -m pip install transformers
 ```
 
 7. Installer et lancer Ollama en local : https://ollama.ai/download
