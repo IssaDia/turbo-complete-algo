@@ -51,7 +51,7 @@ cd turbo-complete-algo
 pip install -r requirements.txt
 ```
 
-4. Installer et lancer Ollama en local : https://ollama.ai/download
+4. Créer un compte sur Ollama pour récuperer la clé d'API : https://ollama.ai/download
 
 ## Configuration de l'environnement
 Créez un fichier `.env.local` à la racine du projet et configurez les variables d'environnement nécessaires pour EBAY API, MONGODB :
