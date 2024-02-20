@@ -51,30 +51,11 @@ cd turbo-complete-algo
 pip install -r requirements.txt
 ```
 
-4. Créez un environnement virtuel :
+4. Installer replicate et transformers
 
-```bash
-python -m venv venv
-```
-
-5. Activez l'environnement virtuel :
-
-Sur Windows :
-
-```bash
-.\venv\Scripts\activate
-```
-
-Sur Unix ou MacOS :
-
-```bash
-source venv/bin/activate
-```
-
-6. Installez les dépendances du projet :
-
-```bash
-pip install -r requirements.txt
+  ```bash
+python3 -m pip install replicate
+python3 -m pip install transformers
 ```
 
 7. Installer et lancer Ollama en local : https://ollama.ai/download
