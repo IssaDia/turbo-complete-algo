@@ -33,7 +33,7 @@ def process_image_route():
     if keyword:
         api_data = {
                 'keyword': keyword,
-                'num_elements': 2
+                'num_elements': 10000
         }
         response = requests.post(API_ENDPOINT, data=api_data)
         descriptions = response.json()
