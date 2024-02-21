@@ -56,11 +56,9 @@ def process_image_route():
        
         output_list = list(output)
         description_string = ''.join(output_list)
-        print(description_string, type (description_string))
+        
 
-        test = "This is a test"
-
-        return test
+        return description_string
 
     else:
         flash("File not allowed")
